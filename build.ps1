@@ -12,4 +12,5 @@ Copy-Item ./Patches/ ./HydroponicsGrowMore/Patches/ -Recurse
 
 Write-Output "Zipping files."
 
+Remove-Item ./HydroponicsGrowMore.zip -Force
 Compress-Archive -Path ./HydroponicsGrowMore/* -DestinationPath ./HydroponicsGrowMore.zip
