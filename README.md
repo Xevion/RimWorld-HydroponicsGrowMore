@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3005440209">
         <img src="./About/Preview.png" alt="Hydroponics Grow More">
     </a>
     <br>
@@ -28,7 +28,7 @@ If there are other patch mods modifying `ThingDef.building.sowTag`, then hope th
     - Or download from the Releases tab [here][github-hydroponics-grow-more-release].
 2. Then unzip the archive into your RimWorld mods folder.
 
-[workshop-hydroponics-grow-more]: https://steamcommunity.com/sharedfiles/filedetails/?id=XXX
+[workshop-hydroponics-grow-more]: https://steamcommunity.com/sharedfiles/filedetails/?id=3005440209
 [github-hydroponics-grow-more-release]: https://github.com/Xevion/RimWorld-HydroponicsGrowMore/releases
 [github-hydroponics-expanded]: https://github.com/Xevion/RimWorld-Hydroponics-Expanded
 [rimworld-devilstrand]: https://rimworldwiki.com/wiki/Devilstrand
