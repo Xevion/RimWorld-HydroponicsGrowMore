@@ -7,7 +7,7 @@
         Larger hydroponics provided by <a href="https://github.com/Xevion/RimWorld-Hydroponics-Expanded">Hydroponics Expanded</a>
     </sub>
 </div>
-
+<br>
 
 A simple patch mod to allow hydroponics basins to grow additional crops typically limited to the ground.
 
