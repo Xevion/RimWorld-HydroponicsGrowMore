@@ -9,6 +9,8 @@
 </div>
 <br>
 
+[![badge-workshop-subscribers]][workshop-hydroponics-grow-more] [![badge-workshop-favorites]][workshop-hydroponics-grow-more] [![badge-version]][workshop-hydroponics-grow-more]
+
 A simple patch mod to allow hydroponics basins to grow additional crops typically limited to the ground.
 
 Currently, these crops are [Devilstrand][rimworld-devilstrand], [Haygrass][rimworld-haygrass], and [Corn][rimworld-corn].
@@ -34,3 +36,6 @@ If there are other patch mods modifying `ThingDef.building.sowTag`, then hope th
 [rimworld-devilstrand]: https://rimworldwiki.com/wiki/Devilstrand
 [rimworld-haygrass]: https://rimworldwiki.com/wiki/Haygrass
 [rimworld-corn]: https://rimworldwiki.com/wiki/Corn
+[badge-version]: https://img.shields.io/badge/built_for-RimWorld_1.4-blue
+[badge-workshop-subscribers]: https://img.shields.io/endpoint.svg?url=https://shieldsio-steam-workshop.jross.me/3005440209/subscriptions-text
+[badge-workshop-favorites]: https://img.shields.io/endpoint.svg?url=https://shieldsio-steam-workshop.jross.me/3005440209/favourites-text
