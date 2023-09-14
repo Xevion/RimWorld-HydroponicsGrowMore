@@ -27,8 +27,8 @@ If there are other patch mods modifying `ThingDef.building.sowTag`, then hope th
 
 1. Install the mod.
     - Download from the Steam Workshop [here][workshop-hydroponics-grow-more].
-    - Or download from the Releases tab [here][github-hydroponics-grow-more-release].
-2. Then unzip the archive into your RimWorld mods folder.
+    - Or download from the Releases tab [here][github-hydroponics-grow-more-release] & unzip the archive into your RimWorld mods folder.
+2. Enable the mod in the mod menu in-game.
 
 [workshop-hydroponics-grow-more]: https://steamcommunity.com/sharedfiles/filedetails/?id=3005440209
 [github-hydroponics-grow-more-release]: https://github.com/Xevion/RimWorld-HydroponicsGrowMore/releases
