@@ -17,7 +17,7 @@ Currently, these crops are [Devilstrand][rimworld-devilstrand], [Haygrass][rimwo
 
 This mod could be considered overpowered, but I'm adding it as other versions are outdated (but probably still work), and I wanted to add some extensions for my other mod, [Hydroponics Expanded][github-hydroponics-expanded].
 
-## Compatability
+## Compatibility
 
 If your mod adds hydroponics that properly designate themselves using the `ThingDef.building.sowTag` (as `Hydroponic`), then this patch should work with it.
 
@@ -36,6 +36,6 @@ If there are other patch mods modifying `ThingDef.building.sowTag`, then hope th
 [rimworld-devilstrand]: https://rimworldwiki.com/wiki/Devilstrand
 [rimworld-haygrass]: https://rimworldwiki.com/wiki/Haygrass
 [rimworld-corn]: https://rimworldwiki.com/wiki/Corn
-[badge-version]: https://img.shields.io/badge/built_for-RimWorld_1.4-blue
+[badge-version]: https://img.shields.io/badge/built_for-RimWorld_1.5-blue
 [badge-workshop-subscribers]: https://img.shields.io/endpoint.svg?url=https://shieldsio-steam-workshop.jross.me/3005440209/subscriptions-text
 [badge-workshop-favorites]: https://img.shields.io/endpoint.svg?url=https://shieldsio-steam-workshop.jross.me/3005440209/favourites-text
