@@ -1,7 +1,7 @@
 name: Build
 
-env:
-  # SLN_PATH: Source/HydroponicsGrowMore/
+# env:
+#   SLN_PATH: Source/HydroponicsGrowMore/
 
 on:
   workflow_dispatch:
