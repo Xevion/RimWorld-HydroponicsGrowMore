@@ -1,0 +1,47 @@
+name: Build
+
+env:
+  # SLN_PATH: Source/HydroponicsGrowMore/
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    # - name: Setup Dotnet
+    #   uses: actions/setup-dotnet@v4
+    #   with:
+    #     dotnet-version: 8.0.x
+      
+    # - name: Install Mod Dependencies
+    #   run: dotnet restore ${{ env.SLN_PATH }}
+
+    # - name: Build Mod
+    #   run: dotnet build ${{ env.SLN_PATH }} --configuration Release --no-restore
+
+    - name: Get Version
+      id: get_version
+      run: |
+        curl -sf https://gobinaries.com/sibprogrammer/xq@latest | sh
+        VERSION=$(xq ./About/About.xml -x "/ModMetaData/modVersion")
+        echo "result=$VERSION" >> $GITHUB_OUTPUT
+
+    - name: Move files
+      run: |
+        mkdir -p output/HydroponicsGrowMore
+        mv About/ Patches/ output/HydroponicsGrowMore
+
+    - name: Upload Mod Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: HydroponicsGrowMore-${{ steps.get_version.outputs.result }}
+        path: output/
